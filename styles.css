@@ -1,0 +1,23 @@
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: rgb(27, 27, 27);
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    cursor: pointer;
+}
