@@ -1,15 +1,7 @@
 const display = document.getElementById("display");
 
 function appendToDisplay(input) {
-    
-
-    if (display.value.indexOf('.') > -1 && input == ('.')) {
-
-    }
-    else {
         display.value += input;
-    }
-
 }
 
 function clearDisplay () {
